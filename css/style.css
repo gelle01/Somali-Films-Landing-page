@@ -321,6 +321,10 @@ button {
     display: none;
   }
 
+  #sign-in {
+    margin-right: 0;
+  }
+
   .showcase-content h1 {
     font-size: 3.3rem;
     line-height: 1;

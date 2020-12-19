@@ -181,7 +181,7 @@ input {
 
 .overlay-panel {
   position: absolute;
-  display: flex;
+  display: 
   align-items: center;
   justify-content: center;
   flex-direction: column;
@@ -250,3 +250,5 @@ footer a {
   color: #3c97bf;
   text-decoration: none;
 }
+
+@media(m)
