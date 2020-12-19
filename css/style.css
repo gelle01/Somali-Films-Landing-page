@@ -69,6 +69,31 @@ img {
   height: 90px;
 }
 
+#sign-in {
+  border-radius: 20px;
+  border: 1px solid #ff4b2b;
+  background-color: #ff4b2b;
+  color: #ffffff;
+  font-size: 0.8rem;
+  font-weight: bold;
+  padding: 7px 30px;
+  letter-spacing: 1px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+button {
+  outline: none;
+}
+
+#sign-in {
+  background-color: transparent;
+  border-color: #ffffff;
+}
+
+#sign-in:hover {
+  background: #119fb8;
+}
+
 .showcase-top img {
   width: 170px;
   position: absolute;
