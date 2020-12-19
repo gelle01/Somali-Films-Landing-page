@@ -321,10 +321,6 @@ button {
     display: none;
   }
 
-  #sign-in {
-    margin-right: 0;
-  }
-
   .showcase-content h1 {
     font-size: 3.3rem;
     line-height: 1;
@@ -336,6 +332,10 @@ button {
 
   .showcase-content p {
     font-size: 1.2rem;
+  }
+
+  .showcase #sign-in {
+    padding: 7px 5px;
   }
 
   .footer .footer-cols {
