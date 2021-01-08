@@ -181,7 +181,7 @@ input {
 
 .overlay-panel {
   position: absolute;
-  display: 
+  display: flex;
   align-items: center;
   justify-content: center;
   flex-direction: column;
@@ -251,4 +251,13 @@ footer a {
   text-decoration: none;
 }
 
-@media(m)
+@media (max-width: 700px) {
+  .social-container a {
+    display: none;
+  }
+
+  .overlay {
+    display: grid;
+    grid-template-columns: repeat(1 1fr);
+  }
+}
